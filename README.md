@@ -24,7 +24,7 @@
 
 ```bash
 git clone https://github.com/Na1ck/TestTask.git
-cd test_task/backend
+cd backend/
 ```
 
 ### 2. Создание виртуального окружения
