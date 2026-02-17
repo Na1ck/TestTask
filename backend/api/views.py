@@ -1,8 +1,9 @@
 from django.contrib.auth import logout
-from djoser.views import Response, UserViewSet as DjoserUserViewSet
+from djoser.views import Response
+from djoser.views import UserViewSet as DjoserUserViewSet
 from rest_framework import status
-from rest_framework.permissions import IsAuthenticated
 from rest_framework.authtoken.models import Token
+from rest_framework.permissions import IsAuthenticated
 
 
 class UserViewSet(DjoserUserViewSet):
